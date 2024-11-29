@@ -586,3 +586,79 @@ footer {
     background-color: #0056b3;
 }
 
+/* Contact Page Styling */
+.contact-header {
+    text-align: center;
+    background-color: #f8f9fa;
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+.contact-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem;
+    gap: 2rem;
+}
+
+.contact-info {
+    flex: 1;
+    background-color: #f4f4f4;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.contact-form {
+    flex: 1;
+    background-color: #ffffff;
+    padding: 2rem;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.submit-button {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+    .contact-container {
+        flex-direction: column;
+    }
+
+    .contact-info, 
+    .contact-form {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+}
